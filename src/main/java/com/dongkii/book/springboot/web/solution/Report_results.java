@@ -1,8 +1,18 @@
-package com.dongkii.book.springboot.web;
+package com.dongkii.book.springboot.web.solution;
+
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
 import java.util.*;
 
+@Getter
+@RequiredArgsConstructor
 public class Report_results {
+
+    private final String[] id_list;
+    private final String[] report;
+    private final int k;
+
     public static int[] solution(String[] id_list, String[] report, int k) {
         /// 이용자의 ID 배열
         // 정지 기준이 되는 신고횟수 k
