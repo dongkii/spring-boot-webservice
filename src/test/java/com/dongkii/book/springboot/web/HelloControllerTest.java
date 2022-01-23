@@ -42,9 +42,6 @@ public class HelloControllerTest {
                 .andExpect(jsonPath("$.name", is(name)))    // 2-2
                 .andExpect(jsonPath("$.amount", is(amount)));
     }
-
-    @Test
-    public void
 }
 
 /*
