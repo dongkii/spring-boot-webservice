@@ -2,6 +2,7 @@ package com.dongkii.book.springboot.web;
 
 import com.dongkii.book.springboot.web.solution.Report_results;
 import com.dongkii.book.springboot.web.solution.String_zip;
+import com.dongkii.book.springboot.web.solution.XInterval_NNumber;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -20,5 +21,12 @@ public class SolutionControllerTest {
         assertThat(String_zip.solution("abcabcdede")).isEqualTo(8);
         assertThat(String_zip.solution("abcabcabcabcdededededede")).isEqualTo(14);
         assertThat(String_zip.solution("xababcdcdababcdcd")).isEqualTo(17);
+    }
+
+    @Test
+    public void x만큼_간격이_있는_n개의_숫자() {
+        assertThat(XInterval_NNumber.solution(2, 5)).isEqualTo(new long[] {2, 4, 6, 8, 10});
+        assertThat(XInterval_NNumber.solution(4, 3)).isEqualTo(new long[] {4, 8, 12});
+        assertThat(XInterval_NNumber.solution(-4, 2)).isEqualTo(new long[] {-4, -8});
     }
 }
