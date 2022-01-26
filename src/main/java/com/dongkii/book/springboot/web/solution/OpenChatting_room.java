@@ -6,7 +6,7 @@ public class OpenChatting_room {
         Map<String, String> nameMap = new HashMap<String, String>();    // key: ID, value: NAME 으로 
         List<String> idList = new ArrayList<String>();                  // 아이디를 저장할 리스트
         List<String> statusList = new ArrayList<String>();              // 상태를 저장할 리스트
-
+        
         for(int i = 0; i < record.length; i++) {                        // record 만큼 반복
             switch (record[i].split(" ")[0]) {                    // switch문으로 split한 0번째 값 비교
                 case "Leave":                                           // 나간 상태는 name 값이 없어서 아이디와 상태만 저장
@@ -29,6 +29,7 @@ public class OpenChatting_room {
         for(int j = 0; j < answer.length; j++) {
             answer[j] = nameMap.get(idList.get(j)) + statusList.get(j);
         }
+
         return answer;
     }
 }
