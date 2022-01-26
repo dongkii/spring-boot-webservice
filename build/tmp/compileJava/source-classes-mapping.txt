@@ -14,3 +14,9 @@ com/dongkii/book/springboot/web/solution/String_zip.java
  com.dongkii.book.springboot.web.solution.String_zip
 Bank_Business/Account.java
  Bank_Business.Account
+com/dongkii/book/springboot/web/solution/XInterval_NNumber.java
+ com.dongkii.book.springboot.web.solution.XInterval_NNumber
+com/dongkii/book/springboot/web/solution/The_spicy.java
+ com.dongkii.book.springboot.web.solution.The_spicy
+com/dongkii/book/springboot/web/solution/OpenChatting_room.java
+ com.dongkii.book.springboot.web.solution.OpenChatting_room
