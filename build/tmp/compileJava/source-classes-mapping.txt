@@ -20,3 +20,5 @@ com/dongkii/book/springboot/web/solution/The_spicy.java
  com.dongkii.book.springboot.web.solution.The_spicy
 com/dongkii/book/springboot/web/solution/OpenChatting_room.java
  com.dongkii.book.springboot.web.solution.OpenChatting_room
+com/dongkii/book/springboot/web/solution/SecretMap.java
+ com.dongkii.book.springboot.web.solution.SecretMap
