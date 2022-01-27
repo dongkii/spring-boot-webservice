@@ -47,12 +47,4 @@ public class SolutionControllerTest {
                 .solution(new String[] {"Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"}))
                 .isEqualTo(new String[] {"Prodo님이 들어왔습니다.", "Ryan님이 들어왔습니다.", "Prodo님이 나갔습니다.", "Prodo님이 들어왔습니다."});
     }
-
-    // practice
-    @Test
-    public void 토끼굴() {
-        assertThat(Rabbit.solution(9, 3)).isEqualTo(3);
-        assertThat(Rabbit.solution(10, 2)).isEqualTo(4);
-        assertThat(Rabbit.solution(9, 4)).isEqualTo(0);
-    }
 }
