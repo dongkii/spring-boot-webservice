@@ -48,10 +48,20 @@ public class SolutionControllerTest {
                 .isEqualTo(new String[] {"Prodo님이 들어왔습니다.", "Ryan님이 들어왔습니다.", "Prodo님이 나갔습니다.", "Prodo님이 들어왔습니다."});
     }
 
-    // Practice
+    // Practice 2022.01.28
+    // Level 1
     @Test
     public void 비밀지도() {
         assertThat(SecretMap.solution(5, new int[] {9, 20, 28, 18, 11}, new int[] {30, 1, 21, 17, 28})).isEqualTo(new String[] {"#####","# # #", "### #", "# ##", "#####"});
         //assertThat(SecretMap.solution(6, new int[] {46, 33, 33 ,22, 31, 50}, new int[] {27 ,56, 19, 14, 14, 10})).isEqualTo(new String[] {"######", "### #", "## ##", " #### ", " #####", "### # "});
+    }
+
+    // Practice 2022.01.31
+    // Level 1
+    @Test
+    public void 키패드_누르기() {
+        assertThat(Keypad.solution(new int[] {1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5}, "right")).isEqualTo("LRLLLRLLRRL");
+        assertThat(Keypad.solution(new int[] {7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2}, "left")).isEqualTo("LRLLRRLLLRR");
+        assertThat(Keypad.solution(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}, "right")).isEqualTo("LLRLLRLLRL");
     }
 }

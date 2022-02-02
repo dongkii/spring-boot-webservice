@@ -1,8 +1,12 @@
 com/dongkii/book/springboot/web/HelloControllerTest.java
  com.dongkii.book.springboot.web.HelloControllerTest
-com/dongkii/book/springboot/web/dto/HelloResponseDtoTest.java
- com.dongkii.book.springboot.web.dto.HelloResponseDtoTest
 Bank_BusinessTest/AccountTest.java
  Bank_BusinessTest.AccountTest
+com/dongkii/book/springboot/web/dto/HelloResponseDtoTest.java
+ com.dongkii.book.springboot.web.dto.HelloResponseDtoTest
 com/dongkii/book/springboot/web/SolutionControllerTest.java
  com.dongkii.book.springboot.web.SolutionControllerTest
+com/dongkii/book/springboot/web/domain/posts/PostsRepositoryTest.java
+ com.dongkii.book.springboot.web.domain.posts.PostsRepositoryTest
+com/dongkii/book/springboot/web/PostsApiControllerTest.java
+ com.dongkii.book.springboot.web.PostsApiControllerTest
