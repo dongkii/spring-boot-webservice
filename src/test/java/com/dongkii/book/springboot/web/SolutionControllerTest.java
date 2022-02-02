@@ -64,4 +64,12 @@ public class SolutionControllerTest {
         assertThat(Keypad.solution(new int[] {7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2}, "left")).isEqualTo("LRLLRRLLLRR");
         assertThat(Keypad.solution(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}, "right")).isEqualTo("LLRLLRLLRL");
     }
+
+    // Practice 2022.02.02
+    // Level 1
+    @Test
+    public void 예산() {
+        assertThat(Budget.solution(new int[] {1,3,2,5,4}, 9)).isEqualTo(3);
+        assertThat(Budget.solution(new int[] {2, 2, 3, 3}, 10)).isEqualTo(4);
+    }
 }
