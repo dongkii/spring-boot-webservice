@@ -4,8 +4,8 @@ com/dongkii/book/springboot/web/solution/The_spicy.java
  com.dongkii.book.springboot.web.solution.The_spicy
 com/dongkii/book/springboot/web/dto/HelloResponseDto.java
  com.dongkii.book.springboot.web.dto.HelloResponseDto
-com/dongkii/book/springboot/web/solution/Keypad.java
- com.dongkii.book.springboot.web.solution.Keypad
+com/dongkii/book/springboot/Application.java
+ com.dongkii.book.springboot.Application
 com/dongkii/book/springboot/web/solution/OpenChatting_room.java
  com.dongkii.book.springboot.web.solution.OpenChatting_room
 com/dongkii/book/springboot/web/solution/String_zip.java
@@ -37,5 +37,7 @@ com/dongkii/book/springboot/web/PostsApiController.java
  com.dongkii.book.springboot.web.PostsApiController
 com/dongkii/book/springboot/domain/BaseTimeEntity.java
  com.dongkii.book.springboot.domain.BaseTimeEntity
-com/dongkii/book/springboot/Application.java
- com.dongkii.book.springboot.Application
+com/dongkii/book/springboot/web/solution/Budget.java
+ com.dongkii.book.springboot.web.solution.Budget
+com/dongkii/book/springboot/web/solution/Keypad.java
+ com.dongkii.book.springboot.web.solution.Keypad

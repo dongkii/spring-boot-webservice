@@ -11,15 +11,15 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Getter // 6                롬복의 어노테이션
+@Getter // 6                롬복의 어노테이션 - Entity 클래스에선 절대 Setter 메소드 만들지 않는다.
 @NoArgsConstructor // 5     롬복의 어노테이션
 @Entity // 1                JPA의 어노테이션
 public class Posts extends BaseTimeEntity {
-    @Id // 2
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // 3
+    @Id // 2 - PK 필드를 나타냄
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // 3 - PK의 생성규칙
     private Long id;
 
-    @Column(length = 500, nullable = false) // 4
+    @Column(length = 500, nullable = false) // 4 - 컬럼을 나타내며, 생략가능, Default 외에 필요한 옵션에 대해 정의
     private String title;
 
     @Column(columnDefinition =  "TEXT", nullable = false)
