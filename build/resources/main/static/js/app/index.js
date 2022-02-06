@@ -36,7 +36,7 @@ var main = {
 
     update : function () {
         var data = {
-            title: $('#title').val(),
+            title: $('#id').val(),
             content: $('#content').val()
         };
 
