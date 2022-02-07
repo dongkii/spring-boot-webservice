@@ -72,4 +72,17 @@ public class SolutionControllerTest {
         assertThat(Budget.solution(new int[] {1,3,2,5,4}, 9)).isEqualTo(3);
         assertThat(Budget.solution(new int[] {2, 2, 3, 3}, 10)).isEqualTo(4);
     }
+
+    // Practice 2022.02.07
+    // Level 1
+    @Test
+    public void 다트게임() {
+        assertThat(Dart.solution("1S2D*3T")).isEqualTo(37);
+        assertThat(Dart.solution("1D2S#10S")).isEqualTo(9);
+        assertThat(Dart.solution("1D2S0T")).isEqualTo(3);
+        assertThat(Dart.solution("1S*2T*3S")).isEqualTo(23);
+        assertThat(Dart.solution("1D#2S*3S")).isEqualTo(5);
+        assertThat(Dart.solution("1T2D3D#")).isEqualTo(-4);
+        assertThat(Dart.solution("1D2S3T*")).isEqualTo(59);
+    }
 }
