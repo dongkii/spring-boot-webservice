@@ -47,3 +47,5 @@ com/dongkii/book/springboot/web/dto/HelloResponseDto.java
  com.dongkii.book.springboot.web.dto.HelloResponseDto
 com/dongkii/book/springboot/web/solution/Dart.java
  com.dongkii.book.springboot.web.solution.Dart
+com/dongkii/book/springboot/web/solution/Normal_square.java
+ com.dongkii.book.springboot.web.solution.Normal_square
