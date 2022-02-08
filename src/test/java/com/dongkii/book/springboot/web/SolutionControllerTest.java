@@ -85,4 +85,15 @@ public class SolutionControllerTest {
         assertThat(Dart.solution("1T2D3D#")).isEqualTo(-4);
         assertThat(Dart.solution("1D2S3T*")).isEqualTo(59);
     }
+
+    // 4st week Q2
+    // Level 2
+    @Test
+    public void 멀쩡한사각형() {
+        assertThat(Normal_square.solution(8, 12)).isEqualTo(80);
+        assertThat(Normal_square.solution(5, 2)).isEqualTo(4);
+        assertThat(Normal_square.solution(3, 5)).isEqualTo(8);
+        assertThat(Normal_square.solution(7, 3)).isEqualTo(12);
+        assertThat(Normal_square.solution(5, 19)).isEqualTo(72);
+    }
 }
