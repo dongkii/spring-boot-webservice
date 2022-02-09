@@ -92,8 +92,8 @@ public class SolutionControllerTest {
     public void 멀쩡한사각형() {
         assertThat(Normal_square.solution(8, 12)).isEqualTo(80);
         assertThat(Normal_square.solution(5, 2)).isEqualTo(4);
-        //assertThat(Normal_square.solution(3, 5)).isEqualTo(8);
-        //assertThat(Normal_square.solution(7, 3)).isEqualTo(12);
+        assertThat(Normal_square.solution(3, 5)).isEqualTo(8);
+        assertThat(Normal_square.solution(7, 3)).isEqualTo(12);
         assertThat(Normal_square.solution(5, 19)).isEqualTo(72);
     }
 }

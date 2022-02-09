@@ -1,45 +1,31 @@
 package com.dongkii.book.springboot.web.solution;
 
 public class Normal_square {
-    public static long solution(int w, int h) {
+    public static long solution(long w, long h) {
         long answer = 1;
-
-        int all = w * h;
 
         // 높이와 넓이가 같을 경우
         if( w == h ){
             return w * w - w;
         }
 
-        // 항상 w가 크도록
-        if( h > w ) {
-            int tmp = h;
-            h = w;
-            w = tmp;
-        }
+        // a에 큰값, b에 작은 값
+        long a = w > h ? w : h;
+        long b = w < h ? w : h;
 
         // 최대공약수를 구함
-        int cnt = gcd(w, h);
-        System.out.println(cnt);
+        long cnt = gcd(a, b);
 
-        // 높이와 넓이를 최대공약수로 나누고 처리
-        w = w/cnt;
-        h = h/cnt;
-
-        // 대각선 길이를 구함
-        int line = (int)Math.ceil(Math.sqrt(Math.pow(w, 2) + Math.pow(h, 2)));
-
-        answer = all - (line * cnt);
-        System.out.println(answer);
+        answer = w * h - (w + h - cnt);
 
         return answer;
     }
 
-    public static int gcd(int w, int h) {
-        if(w % h == 0) {
-            return h;
+    public static long gcd(long a, long b) {
+        if(a % b == 0) {
+            return b;
         }
 
-        return gcd(h, w%h);
+        return gcd(b, a%b);
     }
 }
