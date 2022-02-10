@@ -96,4 +96,12 @@ public class SolutionControllerTest {
         assertThat(Normal_square.solution(7, 3)).isEqualTo(12);
         assertThat(Normal_square.solution(5, 19)).isEqualTo(72);
     }
+
+    // Practice 2022.02.10
+    // Level 1
+    @Test
+    public void 소수찾기() {
+        assertThat(Minority.solution(10)).isEqualTo(4);
+        assertThat(Minority.solution(5)).isEqualTo(3);
+    }
 }
