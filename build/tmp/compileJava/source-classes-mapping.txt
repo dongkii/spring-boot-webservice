@@ -57,7 +57,9 @@ com/dongkii/book/springboot/web/solution/Report_results.java
  com.dongkii.book.springboot.web.solution.Report_results
 com/dongkii/book/springboot/web/solution/minNum_Delete.java
  com.dongkii.book.springboot.web.solution.minNum_Delete
-com/dongkii/book/springboot/web/solution/Collatz.java
- com.dongkii.book.springboot.web.solution.Collatz
 com/dongkii/book/springboot/web/solution/Hashard.java
  com.dongkii.book.springboot.web.solution.Hashard
+com/dongkii/book/springboot/web/solution/Collatz.java
+ com.dongkii.book.springboot.web.solution.Collatz
+com/dongkii/book/springboot/web/solution/Integer_desc.java
+ com.dongkii.book.springboot.web.solution.Integer_desc

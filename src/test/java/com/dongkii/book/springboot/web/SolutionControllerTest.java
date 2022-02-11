@@ -146,4 +146,11 @@ public class SolutionControllerTest {
         assertThat(Collatz.solution(16)).isEqualTo(4);
         assertThat(Collatz.solution(626331)).isEqualTo(-1);
     }
+
+    // Practice 2022.02.11
+    // Level 1
+    @Test
+    public void 정수_내림차순으로_배치하기() {
+        assertThat(Integer_desc.solution(118372)).isEqualTo(873211);
+    }
 }
