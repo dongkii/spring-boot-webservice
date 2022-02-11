@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Gymsuit {
-    public int solution(int n, int[] lost, int[] reserve) {
+    public static int solution(int n, int[] lost, int[] reserve) {
         int answer = 0;
 
         // 학생 순번이 키, 체육복 갯수 값
