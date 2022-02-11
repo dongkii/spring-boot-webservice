@@ -153,4 +153,12 @@ public class SolutionControllerTest {
     public void 정수_내림차순으로_배치하기() {
         assertThat(Integer_desc.solution(118372)).isEqualTo(873211);
     }
+
+    // Practice 2022.02.11
+    // Level 1
+    @Test
+    public void 문자열_내마음대로_정렬하기() {
+        assertThat(String_sort.solution(new String[] {"sun", "bed","car"}, 1)).isEqualTo(new String[] {"car", "bed", "sun"});
+        assertThat(String_sort.solution(new String[] {"abce", "abcd", "cdx"}, 2)).isEqualTo(new String[] {"abcd", "abce", "cdx"});
+    }
 }
