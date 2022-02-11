@@ -1,11 +1,33 @@
-com/dongkii/book/springboot/domain/posts/Posts.java
- com.dongkii.book.springboot.domain.posts.Posts
- com.dongkii.book.springboot.domain.posts.Posts$PostsBuilder
 com/dongkii/book/springboot/web/dto/PostsUpdateRequestDto.java
  com.dongkii.book.springboot.web.dto.PostsUpdateRequestDto
  com.dongkii.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
 Bank_Business/Account.java
  Bank_Business.Account
+com/dongkii/book/springboot/web/solution/String_zip.java
+ com.dongkii.book.springboot.web.solution.String_zip
+com/dongkii/book/springboot/web/solution/Matrix_sum.java
+ com.dongkii.book.springboot.web.solution.Matrix_sum
+com/dongkii/book/springboot/Application.java
+ com.dongkii.book.springboot.Application
+com/dongkii/book/springboot/web/solution/String_Revers.java
+ com.dongkii.book.springboot.web.solution.String_Revers
+com/dongkii/book/springboot/web/IndexController.java
+ com.dongkii.book.springboot.web.IndexController
+com/dongkii/book/springboot/web/solution/Minority.java
+ com.dongkii.book.springboot.web.solution.Minority
+com/dongkii/book/springboot/web/HelloController.java
+ com.dongkii.book.springboot.web.HelloController
+com/dongkii/book/springboot/web/dto/PostsResponseDto.java
+ com.dongkii.book.springboot.web.dto.PostsResponseDto
+com/dongkii/book/springboot/domain/BaseTimeEntity.java
+ com.dongkii.book.springboot.domain.BaseTimeEntity
+com/dongkii/book/springboot/domain/posts/PostsRepository.java
+ com.dongkii.book.springboot.domain.posts.PostsRepository
+com/dongkii/book/springboot/web/dto/HelloResponseDto.java
+ com.dongkii.book.springboot.web.dto.HelloResponseDto
+com/dongkii/book/springboot/domain/posts/Posts.java
+ com.dongkii.book.springboot.domain.posts.Posts
+ com.dongkii.book.springboot.domain.posts.Posts$PostsBuilder
 com/dongkii/book/springboot/web/solution/The_spicy.java
  com.dongkii.book.springboot.web.solution.The_spicy
 com/dongkii/book/springboot/web/solution/Budget.java
@@ -14,38 +36,28 @@ com/dongkii/book/springboot/web/solution/Keypad.java
  com.dongkii.book.springboot.web.solution.Keypad
 com/dongkii/book/springboot/web/solution/OpenChatting_room.java
  com.dongkii.book.springboot.web.solution.OpenChatting_room
-com/dongkii/book/springboot/web/solution/String_zip.java
- com.dongkii.book.springboot.web.solution.String_zip
 com/dongkii/book/springboot/web/PostsApiController.java
  com.dongkii.book.springboot.web.PostsApiController
 com/dongkii/book/springboot/web/dto/PostsListResponseDto.java
  com.dongkii.book.springboot.web.dto.PostsListResponseDto
-com/dongkii/book/springboot/Application.java
- com.dongkii.book.springboot.Application
-com/dongkii/book/springboot/web/IndexController.java
- com.dongkii.book.springboot.web.IndexController
 com/dongkii/book/springboot/service/posts/PostsService.java
  com.dongkii.book.springboot.service.posts.PostsService
+com/dongkii/book/springboot/web/solution/Dart.java
+ com.dongkii.book.springboot.web.solution.Dart
+com/dongkii/book/springboot/web/solution/Normal_square.java
+ com.dongkii.book.springboot.web.solution.Normal_square
 com/dongkii/book/springboot/web/solution/SecretMap.java
  com.dongkii.book.springboot.web.solution.SecretMap
 com/dongkii/book/springboot/web/dto/PostsSaveRequestDto.java
  com.dongkii.book.springboot.web.dto.PostsSaveRequestDto
  com.dongkii.book.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-com/dongkii/book/springboot/web/HelloController.java
- com.dongkii.book.springboot.web.HelloController
-com/dongkii/book/springboot/web/dto/PostsResponseDto.java
- com.dongkii.book.springboot.web.dto.PostsResponseDto
-com/dongkii/book/springboot/domain/BaseTimeEntity.java
- com.dongkii.book.springboot.domain.BaseTimeEntity
 com/dongkii/book/springboot/web/solution/XInterval_NNumber.java
  com.dongkii.book.springboot.web.solution.XInterval_NNumber
-com/dongkii/book/springboot/domain/posts/PostsRepository.java
- com.dongkii.book.springboot.domain.posts.PostsRepository
 com/dongkii/book/springboot/web/solution/Report_results.java
  com.dongkii.book.springboot.web.solution.Report_results
-com/dongkii/book/springboot/web/dto/HelloResponseDto.java
- com.dongkii.book.springboot.web.dto.HelloResponseDto
-com/dongkii/book/springboot/web/solution/Dart.java
- com.dongkii.book.springboot.web.solution.Dart
-com/dongkii/book/springboot/web/solution/Normal_square.java
- com.dongkii.book.springboot.web.solution.Normal_square
+com/dongkii/book/springboot/web/solution/minNum_Delete.java
+ com.dongkii.book.springboot.web.solution.minNum_Delete
+com/dongkii/book/springboot/web/solution/Collatz.java
+ com.dongkii.book.springboot.web.solution.Collatz
+com/dongkii/book/springboot/web/solution/Hashard.java
+ com.dongkii.book.springboot.web.solution.Hashard

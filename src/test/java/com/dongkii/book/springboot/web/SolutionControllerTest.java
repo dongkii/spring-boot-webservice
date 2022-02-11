@@ -119,4 +119,31 @@ public class SolutionControllerTest {
     public void 문자열_내림차순으로_배치하기() {
         assertThat(String_Revers.solution("Zbcdefg")).isEqualTo("gfedcbZ");
     }
+
+    // Practice 2022.02.11
+    // Level 1
+    @Test
+    public void 행렬의덧셈() {
+        assertThat(Matrix_sum.solution(new int[][] {{1, 2}, {2, 3}}, new int[][] {{3, 4}, {5, 6}})).isEqualTo(new int[][] {{4, 6}, {7, 9}});
+        assertThat(Matrix_sum.solution(new int[][] {{1}, {2}}, new int[][] {{3}, {4}})).isEqualTo(new int[][] {{4}, {6}});
+    }
+
+    // Practice 2022.02.11
+    // Level 1
+    @Test
+    public void 하샤드수() {
+        assertThat(Hashard.solution(10)).isEqualTo(true);
+        assertThat(Hashard.solution(12)).isEqualTo(true);
+        assertThat(Hashard.solution(11)).isEqualTo(false);
+        assertThat(Hashard.solution(13)).isEqualTo(false);
+    }
+
+    // Practice 2022.02.11
+    // Level 1
+    @Test
+    public void 콜라츠추측() {
+        assertThat(Collatz.solution(6)).isEqualTo(8);
+        assertThat(Collatz.solution(16)).isEqualTo(4);
+        assertThat(Collatz.solution(626331)).isEqualTo(-1);
+    }
 }
