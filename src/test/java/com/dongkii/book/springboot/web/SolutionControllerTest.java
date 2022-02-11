@@ -161,4 +161,13 @@ public class SolutionControllerTest {
         assertThat(String_sort.solution(new String[] {"sun", "bed","car"}, 1)).isEqualTo(new String[] {"car", "bed", "sun"});
         assertThat(String_sort.solution(new String[] {"abce", "abcd", "cdx"}, 2)).isEqualTo(new String[] {"abcd", "abce", "cdx"});
     }
+
+    // Practice 2022.02.11
+    // Level 1
+    @Test
+    public void 체육복() {
+        assertThat(Gymsuit.solution(5, new int[] {2, 4}, new int[] {1, 3, 5})).isEqualTo(5);
+        assertThat(Gymsuit.solution(5, new int[] {2, 4}, new int[] {3})).isEqualTo(4);
+        assertThat(Gymsuit.solution(3, new int[] {3}, new int[] {1})).isEqualTo(2);
+    }
 }

@@ -65,3 +65,5 @@ com/dongkii/book/springboot/web/solution/Integer_desc.java
  com.dongkii.book.springboot.web.solution.Integer_desc
 com/dongkii/book/springboot/web/solution/String_sort.java
  com.dongkii.book.springboot.web.solution.String_sort
+com/dongkii/book/springboot/web/solution/Gymsuit.java
+ com.dongkii.book.springboot.web.solution.Gymsuit
