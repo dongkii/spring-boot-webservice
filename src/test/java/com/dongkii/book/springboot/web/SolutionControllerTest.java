@@ -104,4 +104,19 @@ public class SolutionControllerTest {
         assertThat(Minority.solution(10)).isEqualTo(4);
         assertThat(Minority.solution(5)).isEqualTo(3);
     }
+
+    // Practice 2022.02.11
+    // Level 1
+    @Test
+    public void 제일_작은_수_제거하기() {
+        assertThat(minNum_Delete.solution(new int[] {4, 3, 2, 1})).isEqualTo(new int[] {4, 3, 2});
+        assertThat(minNum_Delete.solution(new int[] {10})).isEqualTo(new int[] {-1});
+    }
+
+    // Practice 2022.02.11
+    // Level 1
+    @Test
+    public void 문자열_내림차순으로_배치하기() {
+        assertThat(String_Revers.solution("Zbcdefg")).isEqualTo("gfedcbZ");
+    }
 }
