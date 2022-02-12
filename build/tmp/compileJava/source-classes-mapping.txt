@@ -9,6 +9,8 @@ com/dongkii/book/springboot/web/solution/Collatz.java
  com.dongkii.book.springboot.web.solution.Collatz
 com/dongkii/book/springboot/web/solution/Matrix_sum.java
  com.dongkii.book.springboot.web.solution.Matrix_sum
+com/dongkii/book/springboot/web/solution/Gymsuit.java
+ com.dongkii.book.springboot.web.solution.Gymsuit
 com/dongkii/book/springboot/Application.java
  com.dongkii.book.springboot.Application
 com/dongkii/book/springboot/web/solution/String_Revers.java
@@ -23,8 +25,8 @@ com/dongkii/book/springboot/web/dto/PostsResponseDto.java
  com.dongkii.book.springboot.web.dto.PostsResponseDto
 com/dongkii/book/springboot/domain/BaseTimeEntity.java
  com.dongkii.book.springboot.domain.BaseTimeEntity
-com/dongkii/book/springboot/web/solution/minNum_Delete.java
- com.dongkii.book.springboot.web.solution.minNum_Delete
+com/dongkii/book/springboot/web/solution/String_sort.java
+ com.dongkii.book.springboot.web.solution.String_sort
 com/dongkii/book/springboot/domain/posts/PostsRepository.java
  com.dongkii.book.springboot.domain.posts.PostsRepository
 com/dongkii/book/springboot/web/dto/HelloResponseDto.java
@@ -42,6 +44,8 @@ com/dongkii/book/springboot/web/solution/OpenChatting_room.java
  com.dongkii.book.springboot.web.solution.OpenChatting_room
 com/dongkii/book/springboot/web/PostsApiController.java
  com.dongkii.book.springboot.web.PostsApiController
+com/dongkii/book/springboot/web/solution/minNum_Delete.java
+ com.dongkii.book.springboot.web.solution.minNum_Delete
 com/dongkii/book/springboot/web/solution/Hashard.java
  com.dongkii.book.springboot.web.solution.Hashard
 com/dongkii/book/springboot/web/dto/PostsListResponseDto.java
@@ -63,7 +67,5 @@ com/dongkii/book/springboot/web/solution/Report_results.java
  com.dongkii.book.springboot.web.solution.Report_results
 com/dongkii/book/springboot/web/solution/Integer_desc.java
  com.dongkii.book.springboot.web.solution.Integer_desc
-com/dongkii/book/springboot/web/solution/String_sort.java
- com.dongkii.book.springboot.web.solution.String_sort
-com/dongkii/book/springboot/web/solution/Gymsuit.java
- com.dongkii.book.springboot.web.solution.Gymsuit
+com/dongkii/book/springboot/web/solution/Squared.java
+ com.dongkii.book.springboot.web.solution.Squared
