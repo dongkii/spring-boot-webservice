@@ -4,8 +4,9 @@ com/dongkii/book/springboot/domain/posts/Posts.java
 com/dongkii/book/springboot/web/dto/PostsUpdateRequestDto.java
  com.dongkii.book.springboot.web.dto.PostsUpdateRequestDto
  com.dongkii.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
-Bank_Business/Account.java
- Bank_Business.Account
+com/dongkii/book/springboot/config/auth/dto/OAuthAttributes.java
+ com.dongkii.book.springboot.config.auth.dto.OAuthAttributes
+ com.dongkii.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
 com/dongkii/book/springboot/domain/user/User.java
  com.dongkii.book.springboot.domain.user.User
  com.dongkii.book.springboot.domain.user.User$UserBuilder
@@ -19,8 +20,8 @@ com/dongkii/book/springboot/domain/user/UserRepository.java
  com.dongkii.book.springboot.domain.user.UserRepository
 com/dongkii/book/springboot/web/dto/PostsListResponseDto.java
  com.dongkii.book.springboot.web.dto.PostsListResponseDto
-com/dongkii/book/springboot/Application.java
- com.dongkii.book.springboot.Application
+com/dongkii/book/springboot/config/auth/CustomOAuth2UserService.java
+ com.dongkii.book.springboot.config.auth.CustomOAuth2UserService
 com/dongkii/book/springboot/config/auth/LoginUser.java
  com.dongkii.book.springboot.config.auth.LoginUser
 com/dongkii/book/springboot/domain/user/Role.java
@@ -46,8 +47,7 @@ com/dongkii/book/springboot/domain/posts/PostsRepository.java
  com.dongkii.book.springboot.domain.posts.PostsRepository
 com/dongkii/book/springboot/web/dto/HelloResponseDto.java
  com.dongkii.book.springboot.web.dto.HelloResponseDto
-com/dongkii/book/springboot/config/auth/CustomOAuth2UserService.java
- com.dongkii.book.springboot.config.auth.CustomOAuth2UserService
-com/dongkii/book/springboot/config/auth/dto/OAuthAttributes.java
- com.dongkii.book.springboot.config.auth.dto.OAuthAttributes
- com.dongkii.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/dongkii/book/springboot/config/JpaConfig.java
+ com.dongkii.book.springboot.config.JpaConfig
+com/dongkii/book/springboot/Application.java
+ com.dongkii.book.springboot.Application
